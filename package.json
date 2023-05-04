@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for the Edad Imperial Minecraft Server",
+  "main": "index.js",
+  "author": "Kaidenleaf",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@discordjs/core": "^0.6.0",
+    "discord.js": "^14.10.2"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type": "commonjs"
+}
