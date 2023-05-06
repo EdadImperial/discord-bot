@@ -7,6 +7,7 @@ const commands = [];
 
 const command = require("./commands/ping.js");
 const ip_command = require("./commands/ip.js");
+const inv_command = require("./commands/invitar.js");
 if ('data' in command && 'execute' in command) {
 	commands.push(command.data.toJSON());
 } else {
@@ -19,6 +20,9 @@ if ('data' in ip_command && 'execute' in ip_command) {
 	console.log(`[WARNING] The command at ${ip_command} is missing a required "data" or "execute" property.`);
 }
 
+if ('data' in inv_command && 'execute' in inv_command) {
+	commands.push(inv_command.data.toJSON());
+}
 // Construct and prepare an instance of the REST module
 const rest = new REST().setToken(token);
 
