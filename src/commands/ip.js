@@ -4,13 +4,13 @@ const ip = {
 	color: 16761382,
 	fields: [
 		{
-			name: "IP Java",
+			name: "IP",
 			value: "play.edadimperial.com",
             inline: true
 		},
 		{
 			name: "Version",
-			value: "1.13 - 1.19.4",
+			value: "1.17 - 1.19.4",
 			inline: true
 		}
 	]
